@@ -1,0 +1,28 @@
+# Unity
+[Lütfen bu satırı silme]
+
+[Lütfen aşağıyı olduğu gibi ekle]
+
+Temp/
+Obj/
+Library/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS
+.DS_Store
+Thumbs.db

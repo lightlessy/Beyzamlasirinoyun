@@ -1,0 +1,1447 @@
+{
+    "nodes": [
+        {
+            "nodeType": "Raw",
+            "id": "day0raw1",
+            "description": "Son derece dinlenmiş bir şekilde yatağından kalkıyorsun. Güneşin parlayan ışınları odanı dolduruyor.",
+            "nextNodeId": ["day0raw2"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0raw2",
+            "description": "Güneşi çocukluğundan beri hep çok seversin. Güneş seni ısıttıkça içindeki üzüntüleri buharlaştırdığını düşünürdün küçükken.",
+            "nextNodeId": ["day0nos1"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos1",
+            "description": "Ah, ne mutlu günlerdi!",
+            "nextNodeId": ["day0nos2"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos2",
+            "description": "Neyse şimdi bunları düşünme zamanı değil.",
+            "nextNodeId": ["day0nos3"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos3",
+            "description": "hm dinlenmiş hissediyorum ama hafif uykum da var gibi.",
+            "nextNodeId": ["day0raw3"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0raw3",
+            "description": "Saate baktığında saatin daha 8 olduğunu görüyorsun.",
+            "nextNodeId": ["day0choice1"]
+
+        },
+        {
+            "nodeType": "Choice",
+            "id": "day0choice1",
+            "description": "Saat Daha Erkenmiş, normalde 9 gibi kalktığımı düşünürsek sanırım azıcık daha uyusam iyi olacak.",
+            "choices": [
+                {
+                    "text": "Uyu",
+                    "nextNodeId": ["day0Sleep"]
+
+                },
+                {
+                    "text": "Uyu",
+                    "nextNodeId": ["day0Sleep"]
+
+                }
+            ]
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0Sleep",
+            "description": "zzz...",
+            "nextNodeId": ["day0nos4"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos4",
+            "description": "Ne kadar uyudum acaba?",
+            "nextNodeId": ["day0raw4"]
+,
+            "Speaker": "Nonus"
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0raw4",
+            "description": "Saate Bakmak İçin Ayağa Kalkıyorsun",
+            "nextNodeId": ["day0nos5"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos5",
+            "description": "Ah Ayağım!",
+            "nextNodeId": ["day0nos6"]
+,
+            "Speaker": "Nonus"
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos6",
+            "description": "Yerde bir paket var. Kim almış Olabilir ki",
+            "nextNodeId": ["day0raw4e"]
+,
+            "Speaker": "Nonus"
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0raw4e",
+            "description": "Tam o anda annen tüm neşesiyle odaya giriyor.",
+            "nextNodeId": ["day0mom1"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0mom1",
+            "description": "SÜRPRİZZ!",
+            "Speaker": "Mom",
+            "nextNodeId": ["day0mom2"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0mom2",
+            "description": "Ah, hala açmamışsın. Aç hemen. Eminim bayılacaksın.",
+            "Speaker": "Mom",
+            "nextNodeId": ["day0nos7"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos7",
+            "description": "Hmm, doğum günüm ya da özel bir gün değil. Daha önce hiç neden yokken hediye almamıştı bana. Biraz garip...",
+            "nextNodeId": ["day0nos8"]
+,
+            "Speaker": "Nonus"
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos8",
+            "description": "Acaba sorsam mı önce? Ya da boş verip direk açmalı mıyım ki?",
+            "nextNodeId": ["day0nos9"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos9",
+            "description": "Amann, boşuna düşünüyorum. Açayım bakalım neymiş.",
+            "nextNodeId": ["day0raw5"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0raw5",
+            "description": "Yıllardır çok istediğin oyuncağı görüyorsun.",
+            "nextNodeId": ["day0nos10"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos10",
+            "Speaker": "Nonus",
+            "description": "Ama bana hep bebeklerin kız oyuncağı olduğunu söylerdi. Bu neyin nesi?",
+            "nextNodeId": ["day0nos11"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos11",
+            "description": "Şimdi neden fikir değiştirdi ki?",
+            "Speaker": "Nonus",
+            "nextNodeId": ["day0nos12"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos12",
+            "description": "Acaba kimliğimi kabullenmeye mi başladı?",
+            "nextNodeId": ["day0nos13"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0nos13",
+            "description": "Sorsam mı ki? Ya da bu konuyu hiç açmamalı mıyım?",
+            "nextNodeId": ["day0mom3"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0mom3",
+            "Speaker": "Mom",
+            "description": "Mutlu olmamış gibisin. Sevinirsin diye düşünmüştüm.",
+            "nextNodeId": ["day0mom4"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0mom3",
+            "Speaker": "Mom",
+            "description": "Mutlu olmamış gibisin. Sevinirsin diye düşünmüştüm.",
+            "nextNodeId": ["day0mom4"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0mom4",
+            "Speaker": "Mom",
+            "description": "Beğenmedin mi?",
+            "nextNodeId": ["day0choice2"]
+
+        },
+        {
+            "nodeType": "Choice",
+            "id": "day0choice2",
+            "description": "Hayır, ııı yani sevdim çok çok çok güzel ama ııı ben sadece şey...",
+            "choices": [
+                {
+                    "text": "Gözüm dolmuş de ve geçiştir.",
+                    "nextNodeId": ["day0nos14"]
+
+                },
+                {
+                    "text": "Neden Birden Aldığını Sor",
+                    "nextNodeId": ["day0nos15"]
+
+                }
+            ]
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos14",
+            "description": "Sadece gözüm doldu çünkü aşırı sevindim. Çook beğendim. 2 yıl sonunda nihayet aldın. Çok teşekkür ederim.",
+            "nextNodeId": ["day0nos14momreply"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0nos14momreply",
+            "description": "Ah, mutlu olduğuna sevindim. Senin mutluluğun benim için her şeyden önemli.",
+            "nextNodeId": ["day0mom9"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos15",
+            "description": "Bana 2 yıldır o kız oyuncağı oynayamazsın diyordun. Neden birden değiştirdin fikrini onu merak ediyordum. Yoksa porselen bebeğe çok sevindim",
+            "nextNodeId": ["day0mom5"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0mom5",
+            "description": "Tatlım çok özür dilerim. Mutluluğunun daha önemli olduğunu fark ettim. telafi etmek istedim.",
+            "nextNodeId": ["day0mom6"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0mom6",
+            "description": "Geçmiş için umarım affedersin.",
+            "nextNodeId": ["day0choice3"]
+
+        },
+        {
+            "nodeType": "Choice",
+            "id": "day0choice3",
+            "description": "Bu çok tatlı. Annemin desteği beni rahatlattı.",
+            "choices": [
+                {
+                    "text": "Tabii ki affettim.(Gülümse)",
+                    "nextNodeId": ["day0mom7"]
+
+                },
+                {
+                    "text": "O zamanki kırıklığımı hala hissediyorum. Ama bu gidişle geçecek gibi.",
+                    "nextNodeId": ["day0mom8"]
+
+                }
+            ]
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0mom7",
+            "description": "Bunu duyduğuma çok sevindim. Seni çok seviyorum. Hep de seveceğim",
+            "nextNodeId": ["day0nos16"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0mom8",
+            "description": "Anladım. Umarım bir gün beni affedersin.",
+            "nextNodeId": ["day0nos18"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos16",
+            "description": "Ben de seni anne.",
+            "nextNodeId": ["day0mom9"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0nos18",
+            "description": "...",
+            "nextNodeId": ["day0mom9"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0mom9",
+            "description": "Şimdi kahvaltı yapalım mı? Sonra seninle birlikte dışarı çıkalım. Sürpriz bir yere götüreceğim seni. İşten izin aldım.",
+            "nextNodeId": ["day0kitchenmom1"]
+,
+            "eventTrigger": [
+                {
+                    "effectName": "FadeOutEffect",
+                    "value": "Kitchen"
+                }
+            ]
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0kitchenmom1",
+            "description": "Sana en sevdiğin pofidik pankeklerden yaptım.",
+            "eventTrigger": [
+                {
+                    "effectName": "FadeInEffect"
+                },
+                {
+                    "effectName": "NewScene",
+                    "value": "Pancakes"
+                }
+            ],
+            "nextNodeId": ["day0kitchennonus1"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0kitchennonus1",
+            "description": "Mmh çok lezzetliler!",
+            "nextNodeId": ["day0kitchenraw1"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw1",
+            "description": "Sohbet muhabbet eşliğinde kahvaltınızı yapıyorsunuz. Annen yemek yapma konusunda çok yetenekli.",
+            "nextNodeId": ["day0raw6"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0raw6",
+            "description": "Ama anlık bir hüzün çöküyor içine. Baban da pankekleri çok severdi. Annen eskiden kalp şeklinde yapardı pankekleri.",
+            "nextNodeId": ["day0kitchennonus2"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0kitchennonus2",
+            "description": "Eskiden pankekleri kalp şeklinde yapardın.",
+            "nextNodeId": ["day0kitchenmom2"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0kitchenmom2",
+            "description": "...",
+            "nextNodeId": ["day0kitchennonus3"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0kitchennonus3",
+            "description": "Yani... Güzel günlerdi... Mutluyduk... Babam da varken...",
+            "nextNodeId": ["day0kitchenmom3"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Mom",
+            "id": "day0kitchenmom3",
+            "description": "O adamdan bahsetme.",
+            "nextNodeId": ["day0kitchenchoice1"]
+
+        },
+        {
+            "nodeType": "Choice",
+            "id": "day0kitchenchoice1",
+            "description": "Ugh. Kötü anıları hatırlattım galiba. Ne yapmalıyım?",
+            "choices": [
+                {
+                    "text": "Özür Dile",
+                    "nextNodeId": ["day0kitchenapologize"]
+
+                },
+                {
+                    "text": "Tamam deyip sessiz kal",
+                    "nextNodeId": ["day0kitchenbesilent"]
+
+                }
+            ]
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0kitchenapologize",
+            "description": "Özür dilerim. Amacım kötü anıları hatırlatmak değildi. Sadece...",
+            "nextNodeId": ["day0kitchenraw2"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "Speaker": "Nonus",
+            "id": "day0kitchenbesilent",
+            "description": "Tamam...",
+            "nextNodeId": ["day0kitchenraw2"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw2",
+            "description": "Annem kısa süreliğine durgunlaşsa da kısa sürede eski neşesine dönüyor.",
+            "nextNodeId": ["day0kitchenraw3"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw3",
+            "description": "Sofrayı toplarken ve bulaşıkları yıkarken de sabahki keyifli haliniz devam ediyor. Beraber şarkı söyleyerek bulaşıkları yıkıyorsunuz.",
+            "nextNodeId": ["day0kitchenraw4"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw4",
+            "description": "Daha doğrusu annen yıkıyor sen duruluyorsun. Her zamanki gibi. Annenin sesi seni rahatlatıyor.",
+            "nextNodeId": ["day0kitchenraw5"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw5",
+            "description": "Babanla annen boşandığından beri annenle her şeyi beraber yapıyorsunuz. Hiçbir gizliniz saklınız yok en yakın arkadaşlar gibisiniz. Anneni gerçekten çok seviyorsun.",
+            "nextNodeId": ["day0kitchenraw6"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw6",
+            "description": "Boşanma aşamasında da baban annene iftiralar atarken annen hepsine olgun ve güçlü bir şekilde göğüs germişti. Ama en çok desteğe ihtiyaç duyduğu dönemde sen babana inanıp anneni yalnız bırakmıştın.",
+            "nextNodeId": ["day0kitchenraw7"]
+
+        },
+        {
+            "nodeType": "Raw",
+            "id": "day0kitchenraw7",
+            "description": "Hala pişmanlığını duyuyorsun, 1 yıl geçmesine rağmen annen durgunlaştığını fark ediyor.",
+            "nextNodeId": ["day0kitchenmom4"]
+
+        },
+        {
+            "nodeType": "Monologue",
+            "id": "day0kitchenmom4",
+            "Speaker": "Mom",
+            "description": "Ne oldu? Yorgunsan durulamayı da ben yapabilirim. Bir sıkıntın mı var?",
+            "nextNodeId": ["day0kitchenchoice2"]
+
+        },
+        {
+          "id": "day0kitchenchoice2",
+          "nodeType": "Choice",
+          "description": "Bir Şey Olmadı, Sadece...",
+          "choices": [
+            {
+              "text": "Pişmanlık Duyduğunu Söyle",
+              "nextNodeId": ["day0kitchenregret1"]
+
+            },
+            {
+              "text": "Ortamı bozmamak için geçiştir ve gülümse",
+              "nextNodeId": ["day0kitchenpassover1"]
+
+            }
+          ]
+        },
+        {
+          "id": "day0kitchenregret1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Uh Bazen geçmişte yeterince iyi bir evlat olamadığım için kötü hissediyorum. Seni hak etmediğimi düşünüyorum bazen.",
+          "nextNodeId": ["day0kitchenregret2"]
+
+        },
+        {
+          "id": "day0kitchenregret2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Tatlım, Saçmalıyorsun. Sen bu hayatta benim en büyük hediyemsin. Herkes bazen hata yapar. Ben de sana karşı bazen hatalar yaptım. Ama telafi etmek için elimden geleni yapmaya çalışıyorum. Sen de hatanı telafi ettin zaten. Beni yalnız bırakmadın.",
+          "nextNodeId": ["day0kitchenregret3"]
+
+        },
+        {
+          "id": "day0kitchenregret3",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Teşekkür ederim. Bu iyi geldi.",
+          "nextNodeId": ["day0kitchenregret4"]
+
+        },
+        {
+          "id": "day0kitchenregret4",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Bak. Madamın Cesedi'nin yeni bölümü başlayacak. Hadi izleyelim.",
+          "nextNodeId": ["day0kitchenregret5"]
+
+        },
+        {
+          "id": "day0kitchenregret5",
+          "nodeType": "Raw",
+          "description": "Annen de sen de polisiye dizilerine bayılıyorsunuz. Bu da favori diziniz",
+          "nextNodeId": ["day0raw7"]
+
+        },
+        {
+          "id": "day0kitchenpassover1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Kahveye ihtiyacım var sanırım. Pek uyuyamadım gece. Ben kahve yapayım kendime",
+          "nextNodeId": ["day0kitchenpassover2"]
+
+        },
+        {
+          "id": "day0kitchenpassover2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Tamam o zaman ben de bir kahveye hayır demem",
+          "nextNodeId": ["day0kitchenpassover3"]
+
+        },
+        {
+          "id": "day0kitchenpassover3",
+          "nodeType": "Raw",
+          "description": "Sen kahve yaparken annen bulaşıkları bitirmiş. Oturup kahvelerinizi içerken en sevdiğiniz dizinin yeni bölümünü izlemeye başlıyorsunuz.",
+          "nextNodeId": ["day0raw7"]
+
+        },
+        {
+          "id": "day0raw7",
+          "nodeType": "Raw",
+          "description": "Başını annnenin omzuna koyuyorsun. Annen de saçlarını okşuyor. Bu anı ömrün boyunca hatırlayacaksın.",
+          "nextNodeId": ["day0raw8"]
+
+        },
+        {
+          "id": "day0raw8",
+          "nodeType": "Raw",
+          "description": "Ve bölüm bitene kadar böyle kalıyorsunuz. Mutlusun.",
+          "nextNodeId": ["day0saloonmom1"]
+
+        },
+        {
+          "id": "day0saloonmom1",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Ah, ne bölümdü ama!",
+          "nextNodeId": ["day0saloonmom2"]
+
+        },
+        {
+          "id": "day0saloonmom2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "1 Hafta nasıl bekleyeceğim bilmiyorum.",
+          "nextNodeId": ["day0saloonnonus1"]
+
+        },
+        {
+          "id": "day0saloonnonus1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "AAA bir hafta çok uzun!",
+          "nextNodeId": ["day0saloonmom3"]
+
+        },
+        {
+          "id": "day0saloonmom3",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Ahaha Olsun bekleme heyecanı da iyidir.",
+          "nextNodeId": ["day0saloonmom4"]
+
+        },
+        {
+          "id": "day0saloonmom4",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Neyse seni bir yere götüreceğim. Rahat giyinmeye dikkat et.",
+          "nextNodeId": ["day0saloonnonus2"]
+
+        },
+        {
+          "id": "day0saloonnonus2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Nereye gidiyoruz?",
+          "nextNodeId": ["day0saloonmom5"]
+
+        },
+        {
+          "id": "day0saloonmom5",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Sürpriz tabii ki. Ama sana ipucu vereyim. Bugün çok eğleneceksin.",
+          "nextNodeId": ["day0saloonnonus3"]
+
+        },
+        {
+          "id": "day0saloonnonus3",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Off çok merak ettim.",
+          "nextNodeId": ["day0choice4"]
+
+        },
+        {
+          "id": "day0choice4",
+          "nodeType": "Choice",
+          "description": "Off çok merak ettim.",
+          "choices": [
+            {
+              "text": "Israr Et",
+              "nextNodeId": ["Day0Consist1"]
+
+            },
+            {
+              "text": "Meraklar içinde düşünmemeye çalış",
+              "nextNodeId": ["day0raw9"]
+
+            }
+          ]
+        },
+        {
+          "id": "Day0Consist1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Amaa lütfen söyle.",
+          "nextNodeId": ["day0consistmom1"]
+
+        },
+        {
+          "id": "day0consistmom1",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Hayııır Sürpriz.",
+          "nextNodeId": ["Day0Consist2"]
+
+        },
+        {
+          "id": "Day0Consist2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Ben bu merakla yaşayamam ki. Lütfen söyle.",
+          "nextNodeId": ["day0consistmom2"]
+
+        },
+        {
+          "id": "day0consistmom2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Hadi ısrar etme de giyin. Yoksa geç kalacağız.",
+          "nextNodeId": ["day0raw9"]
+
+        },
+        {
+          "id": "day0raw9",
+          "nodeType": "Raw",
+          "description": "Üzerine daha çok düşünmemeye ve giyinmeye karar veriyorsun.",
+          "nextNodeId": ["day0saloonnonus4"]
+
+        },
+        {
+          "id": "day0saloonnonus4",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Şimdi kıyafetlerimi seçmeliyim. Annem rahat giyinmemei söyledi. Hangi kıyafetleri giymeliyim?",
+          "nextNodeId": ["day0choice5"]
+
+        },
+        {
+          "id": "day0choice5",
+          "nodeType": "Choice",
+          "description": "Hangisi Daha iyi",
+          "choices": [
+            {
+              "text": "Tişört ve Şort",
+              "nextNodeId": ["day0nosdress1"]
+
+            },
+            {
+              "text": "Askılı badi ve pantolon",
+              "nextNodeId": ["day0nosdress1"]
+
+            }
+          ]
+        },
+        {
+          "id": "day0nosdress1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Harika!",
+          "nextNodeId": ["day0lunaparkmom1"]
+
+        },
+        {
+          "id": "day0lunaparkmom1",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Hadi gidelim taksimiz bizi bekliyor.",
+          "nextNodeId": ["day0raw10"]
+
+        },
+        {
+          "id": "day0raw10",
+          "nodeType": "Raw",
+          "description": "Taksiyle uzun bir yol gidiyorsunuz. 1 Saate yakın süren yolda çok sıkılsan da annen bu beklemeye değeceğini söylüyor. Bir yandan da şarkı söyleyip dans ediyorsunuz.",
+          "nextNodeId": ["day0raw11"]
+
+        },
+        {
+          "id": "day0raw11",
+          "nodeType": "Raw",
+          "description": "Ve Sonunda Geldiniz",
+          "nextNodeId": ["day0lunaparknonus1"]
+
+        },
+        {
+          "id": "day0lunaparknonus1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Lunapaaaark!",
+          "nextNodeId": ["day0lunaparknonus2"]
+
+        },
+        {
+          "id": "day0lunaparknonus2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "En son ne zaman geldik hatırlamıyorum bile.",
+          "nextNodeId": ["day0lunaparkmom2"]
+
+        },
+        {
+          "id": "day0lunaparkmom2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Ah eski evimiz yakındı buraya. Her haftasonu seninle atlıkarıncaya gelirdik ama küçüktün o yüzden hatırlamıyorsun.",
+          "nextNodeId": ["day0lunaparknonus3"]
+
+        },
+        {
+          "id": "day0lunaparknonus3",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Eski evimizi çok seviyordum. Duvarlarında bir sürü poster vardı. Odamın neredeyse her yeri posterle kaplıydı.",
+          "nextNodeId": ["day0lunaparkmom3"]
+
+        },
+        {
+          "id": "day0lunaparkmom3",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Haha Evet. İzlediğin tüm çizgi filmlerin pastalarını almıştık.",
+          "nextNodeId": ["day0raw12"]
+
+        },
+        {
+          "id": "day0raw12",
+          "nodeType": "Raw",
+          "description": "Daha çok düşündün eski evinizi. Annen odanın dekorasyonuna çok önem veriyordu. Sık sık posterler alırdı. Sana verdiği emekler için minnettar hissediyorsun.",
+          "nextNodeId": ["day0lunaparkmom4"]
+
+        },
+        {
+          "id": "day0lunaparkmom4",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "E hadi burada duracak mıyız yoksa eğlenmeye mi gideceğiz?",
+          "nextNodeId": ["day0lunaparknonus4"]
+
+        },
+        {
+          "id": "day0lunaparknonus4",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Hadi gidelim!",
+          "nextNodeId": ["day0choice6"]
+
+        },
+        {
+          "id": "day0choice6",
+          "nodeType": "Choice",
+          "description": "İlk hangi oyuncağa binelim?",
+          "choices": [
+            {
+              "text": "Gondol",
+              "nextNodeId": ["day0gondol"]
+
+            },
+            {
+              "text": "Hızlı Tren",
+              "nextNodeId": ["day0hızlıtren"]
+
+            }
+          ]
+        },
+        {
+          "id": "day0gondol",
+          "nodeType": "Raw",
+          "description": "İlk gondola bindiniz. Küçükken gemi kaptanı olmak istediğinizi hatırlıyorsun. Ortalarda oturduğunuz için çok da sallanmıyorsunuz. Ama yine de çok eğleniyorsunuz.",
+          "nextNodeId": ["day0raw13"]
+        },
+        {
+          "id": "day0hızlıtren",
+          "nodeType": "Raw",
+          "description": "İlk önce hızlı trene bindiniz. Eski sevgili. Hızlı trenlerden ne kadar hoşlandığını ve ne kadar eğlenceli olduğunu anlatır dururdu. Seni de bir gün bindirmek istemişti ama o gün hiç gelmedi...",
+          "nextNodeId": ["day0raw13"]
+
+        },
+        {
+          "id": "day0raw13",
+          "nodeType": "Raw",
+          "description": "Sonra kalan aletlerin hepsine bindiniz. Vaktinizin çoğu gözü kapalı çığlık atarak geçti ama eğlencenin dibine vurdunuz.",
+          "nextNodeId": ["day0raw14"]
+
+        },
+        {
+          "id": "day0raw14",
+          "nodeType": "Raw",
+          "description": "En son dönmedolaba bindiniz. Bütün şehir gözlerinizin önünde. Onca aksiyondan sonra dinlendirici oldu.",
+          "nextNodeId": ["day0raw15"]
+
+        },
+        {
+          "id": "day0raw15",
+          "nodeType": "Raw",
+          "description": "İnince de pamuk şeker alıp günü noktalıyorsunuz.",
+          "nextNodeId": ["day0lunaparknonus5"]
+
+        },
+        {
+          "id": "day0lunaparknonus5",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Bir tane de özel içeceğimizden yapmak için alalım mı?",
+          "nextNodeId": ["day0lunaparkmom5"]
+
+        },
+        {
+          "id": "day0lunaparkmom5",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Alalım tabii ki.",
+          "nextNodeId": ["day0raw16"]
+
+        },
+        {
+          "id": "day0raw16",
+          "nodeType": "Raw",
+          "description": "Yeniden taksiye biniyorsunuz. Bu sefer daha kısa sürüyor. Günün yorgunluğuyla birlikte uyku bastırıyor.",
+          "nextNodeId": ["day0lunaparkmom6"]
+
+        },
+        {
+          "id": "day0lunaparkmom6",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Nonus, uyan hadi.",
+          "nextNodeId": ["day0mom10"]
+
+        },
+        {
+          "id": "day0mom10",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Hadi tatlım,",
+          "nextNodeId": ["day0mom11"]
+
+        },
+        {
+          "id": "day0mom11",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Non, taşıyamayacağım kadar ağırsın. Hadi uyan.",
+          "nextNodeId": ["day0nos19"]
+
+        },
+        {
+          "id": "day0nos19",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Igh.. mmmmhh...",
+          "nextNodeId": ["day0mom12"]
+
+        },
+        {
+          "id": "day0mom12",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Hadi ama taksiciyi bekletme ayıp.",
+          "nextNodeId": ["day0nos20"]
+
+        },
+        {
+          "id": "day0nos20",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "ıhmm kalkıyorum.",
+          "nextNodeId": ["day0nos21"]
+
+        },
+        {
+          "id": "day0nos21",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "...Ne çabuk geldik",
+          "nextNodeId": ["day0raw17"]
+
+        },
+        {
+          "id": "day0raw17",
+          "nodeType": "Raw",
+          "description": "Annen taksiciye para verirken sen de uyku sersemliğiyle evin kapıyı açmaya çalışıyorsun. Ama kapı deliğini bulamıyorsun. ",
+          "nextNodeId": ["day0nos22"]
+
+        },
+        {
+          "id": "day0nos22",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Gerçekten yorulmuşum.",
+          "nextNodeId": ["day0raw18"]
+
+        },
+        {
+          "id": "day0raw18",
+          "nodeType": "Raw",
+          "description": "Annenle beraber eve yürüdünüz. Annen de yorgun görünüyordu. Galiba ikiniz için de uzun ve yorucu bir gün olmuştu.",
+          "nextNodeId": ["day0raw19"]
+
+        },
+        {
+          "id": "day0raw19",
+          "nodeType": "Raw",
+          "description": "Eve geldiğinizde saat daha akşam 8'di. Normalde 11 gibi yattığın için bu saatte bu kadar yorgun olmak seni şaşırtısa da yaz tatilinin başından beri dışarı çıkmadığın aklına gelince yorulmanın normal olduğunu düşünüyorsun",
+          "nextNodeId": ["day0nos23"]
+
+        },
+        {
+          "id": "day0nos23",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "umm sanırım bünyem alışık olmadığı için tır çarpmış gibiyim.",
+          "nextNodeId": ["day0mom13"]
+
+        },
+        {
+          "id": "day0mom13",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "hadi uykucu saat daha 8. Özel koteylimizi yapmayacak mıyız?",
+          "nextNodeId": ["day0nos24"]
+
+        },
+        {
+          "id": "day0nos24",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Aslında yorgunum ama kokteyl de çok eğlenceli olurdu.",
+          "nextNodeId": ["day0choice7"]
+
+        },
+        {
+          "id": "day0choice7",
+          "nodeType": "Choice",
+          "description": "Ne yapsam",
+          "choices": [
+            {
+              "text": "Kokteyl yap.",
+              "nextNodeId": ["day0coctail1"]
+
+            },
+            {
+              "text": "Reddet ve uyumaya git.",
+              "nextNodeId": ["day0declinecocktail1"]
+
+            }
+          ]
+        },
+        {
+          "id": "day0declinecocktail1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Gerçekten çok isterdim ama gözlerimi bile açık tutamıyorum. Sanırım kokteyl için hiç enerjim kalmadı.",
+          "nextNodeId": ["day0declinecoctail2"]
+
+        },
+        {
+          "id": "day0declinecoctail2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Ama bu kadar şekeri boşuna mı aldık?",
+          "nextNodeId": ["day0declinecoctail3"]
+
+        },
+        {
+          "id": "day0declinecoctail3",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Biliyorsun çok yorgun olmasam asla reddetmezdim.",
+          "nextNodeId": ["day0declinecoctail4"]
+
+        },
+        {
+          "id": "day0declinecoctail4",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Ah peki o zaman iyi geceler tatlım.",
+          "nextNodeId": ["day0declinecoctail5"]
+
+        },
+        {
+          "id": "day0declinecoctail5",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "İyi geceler annecim.",
+          "nextNodeId": ["day0roomchoice"]
+
+        },
+        {
+          "id": "day0roomchoice",
+          "nodeType": "Choice",
+          "description": "",
+          "choices": [
+            {
+              "text": "Odana Çık",
+              "nextNodeId": ["day0sleepchoice1"]
+            }
+          ]
+        },
+        {
+          "id": "day0sleepchoice1",
+          "nodeType": "Choice",
+          "description": "Odana geldin.",
+          "choices": [
+            {
+              "text": "UYU",
+              "nextNodeId": ["morningsad"]
+
+            }
+          ]
+        },
+        {
+          "id": "day0coctail1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Tabii ki yapacağız. Ama her an düşüp uyuyabilirim. Hazırlıklı ol haha.",
+          "nextNodeId": ["day0coctail2"],
+          "SetFlags": ["şekerlikokteyl"]
+
+        },
+        {
+          "id": "day0coctail2",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Hadi gazozları kap gel o zaman. Ben de bardakları hazırlayayım.",
+          "nextNodeId": ["day0coctailraw1"]
+
+        },
+        {
+          "id": "day0coctailraw1",
+          "nodeType": "Raw",
+          "description": "Gazozları taşırken uykunun biraz daha açıldığını hissediyorsun.",
+          "nextNodeId": ["day0coctailraw2"]
+
+        },
+        {
+          "id": "day0coctailraw2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "İyi ki anlık uykuma aldanıp uyumamışım.",
+          "nextNodeId": ["day0coctailchoice1"]
+
+        },
+        {
+          "id": "day0coctailchoice1",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Sen mi hazırlamak istersin ben mi hazırlayayım?",
+          "nextNodeId": ["day0coctailchoice2"]
+
+        },
+        {
+          "id": "day0coctailchoice2",
+          "nodeType": "Choice",
+          "description": "Umm...",
+          "choices": [
+            {
+              "text": "Ben Hazırlarım",
+              "nextNodeId": ["day0noscoctail1"]
+
+            },
+            {
+              "text": "Sen hazırlasan daha iyi olur",
+              "nextNodeId": ["day0momcoctail1"]
+
+            }
+          ]
+        },
+        {
+          "id": "day0noscoctail1",
+          "nodeType": "Raw",
+          "description": "Önce buzları bardağa doldurup bardaklar soğusun diye iyice bekliyorsun. Ardından gazozları iki bardağa eşit olacak şekilde döküyorsun. En son pamuk şekeri iki eş parçaya bölüp gazozların içine atıyorsun",
+          "nextNodeId": ["day0noscoctail2"]
+
+        },
+        {
+          "id": "day0noscoctail2",
+          "nodeType": "Raw",
+          "description": "Pamuk şekerlerin gazozda yok olmasını ve rengini gazoza vermesini izlemek sana küçüklüğünden beri hep sihir gibi gelmiştir. Yine büyülenmiş şekilde bardakları izlerken annen seni düşüncelerinden uyandırıyor",
+          "nextNodeId": ["day0coctail3"]
+
+        },
+        {
+          "id": "day0momcoctail1",
+          "nodeType": "Raw",
+          "description": "Annen önce buzları bardaklara koyuo bardaklar iyice soğusun diye karıştırıyor. Ardından gazozları iki bardağa eşit(Seninkine her zamanki biraz daha fazla) olacak şekilde döküyor. En son pamuk şekeri iki parçaya bölüp gazozların içine atıyor.",
+          "nextNodeId": ["day0momcoctail2"]
+
+        },
+        {
+          "id": "day0momcoctail2",
+          "nodeType": "Raw",
+          "description": "Pamuk şekerlerin gazozda yok olmasını ve rengini gazoza vermesini izlemek sana küçüklüğünden beri hep sihir gibi hissettirmiştir. Yine büyülenmiş şekilde bardakları izlerken annen seni düşüncelerinden uyandırıyor.",
+          "nextNodeId": ["day0coctail3"]
+
+        },
+        {
+          "id": "day0coctail3",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Ay ne hoş oldular hadi buzlar erimeden içelim.",
+          "nextNodeId": ["day0coctailraw3"]
+
+        },
+        {
+          "id": "day0coctailraw3",
+          "nodeType": "Raw",
+          "description": "Annenle beraber kokteyllerinizi içip bugün yaptıklarınızdan bahsetmeye başlıyorsunuz. İkiniz için de çok eğlenceli bir gün olmuş. Anlatacak çok şey var.",
+          "nextNodeId": ["day0coctailraw4"]
+
+        },
+        {
+          "id": "day0coctailraw4",
+          "nodeType": "Raw",
+          "description": "Sonra konu konuyu açıyor ve en son mantar pişirme teknikleri hakkında konuşurken yeniden uykunun geldiğini fark ediyorsun.",
+          "nextNodeId": ["day0coctailraw5"]
+
+        },
+        {
+          "id": "day0coctailraw5",
+          "nodeType": "Raw",
+          "description": "Saate baktığında saatin 11 olduğunu görüyorsun.",
+          "nextNodeId": ["day0coctail4"]
+
+        },
+        {
+          "id": "day0coctail4",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Aman tanrım vakit su gibi akmış hiç fark etmemişim. 11 olmuş.",
+          "nextNodeId": ["day0coctail5"]
+
+        },
+        {
+          "id": "day0coctail5",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Aa gerçekten! Sanırım uyumamız lazım.",
+          "nextNodeId": ["day0coctailraw6"]
+
+        },
+        {
+          "id": "day0coctailraw6",
+          "nodeType": "Raw",
+          "description": "Odana çıkmak için kalktığında yeniden minnettar hissediyorsun bu güzel gün için.",
+          "nextNodeId": ["day0coctail6"]
+
+        },
+        {
+          "id": "day0coctail6",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Gün gerçekten çok güzeldi. Bunu daha sık yapalım olur mu?",
+          "nextNodeId": ["day0coctailraw7"]
+
+        },
+        {
+          "id": "day0coctailraw7",
+          "nodeType": "Raw",
+          "description": "Annen sana gülümsüyor",
+          "nextNodeId": ["day0coctail7"]
+
+        },
+        {
+          "id": "day0coctail7",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "Tabii ki tatlım",
+          "nextNodeId": ["day0coctail8"]
+
+        },
+        {
+          "id": "day0coctail8",
+          "nodeType": "Monologue",
+          "Speaker": "Mom",
+          "description": "İyi geceler.",
+          "nextNodeId": ["day0coctail9"]
+
+        },
+        {
+          "id": "day0coctail9",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "İyi geceler",
+          "nextNodeId": ["day0coctailraw8"]
+
+        },
+        {
+          "id": "day0coctailraw8",
+          "nodeType": "Raw",
+          "description": "Huzurlu bir şekilde odana çıkıyorsun. Gün seni yorsa da uzun bir sohbetten sonra dinlenmiş hissediyorsun. Yine de yatağına yatınca uykunun ağırlığının çökmesine engel olamıyorsun.",
+          "nextNodeId": ["day0coctail10"]
+
+        },
+        {
+          "id": "day0coctail10",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Zzz...",
+          "nextNodeId": ["morninghappy"]
+
+        }, 
+        {
+          "id": "morningsad",
+          "nodeType": "Raw",
+          "description": "Saate baktığında saatin 9.30 olduğunu görüyorsun.",
+          "nextNodeId": ["morningsad_2"]
+
+        },
+        {
+          "id": "morninghappy",
+          "nodeType": "Raw",
+          "description": "Saate baktığında saatin 9.30 olduğunu görüyorsun.",
+          "nextNodeId": ["morninghappy_2"]
+
+        },
+        {
+          "id": "morningsad_2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Resmen 13 saat ölü gibi uyumuşum inanamıyorum kendime.Ah bu ağırlığı umarım kısa sürede atabilirim",
+          "nextNodeId": ["day_1_raw_1"]
+
+        },
+        {
+          "id": "morninghappy_2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Verimli bir uykuydu. Enerjik Hissediyorum",
+          "nextNodeId": ["day_1_raw_1"]
+
+        },
+        {
+          "id": "day_1_raw_1",
+          "nodeType": "Raw",
+          "description": "Kısa bir güne başlama egzersizi ile iyice uyanıyorsun. Yavaş yavaş uykunun ağırlığını atmaya başlıyorsun. Okul zamanı her sabah yapardın bu egzersizi ama yaz tatilinde baya tembellik yapmışsın.",
+          "nextNodeId": ["day_1_raw_2"]
+
+        },
+        {
+          "id": "day_1_raw_2",
+          "nodeType": "Raw",
+          "description": "Balık joe'yu dün de beslemediğin için akvaryumuna bakıyorsun. Balık Joe, akvaryumunun en köşesinde duruyor. Sanki seni bekliyormuş gibi.",
+          "nextNodeId": ["day_1_nonus_1"]
+
+        },
+        {
+          "id": "day_1_nonus_1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Özür dilerim Joe. Dün hızlı bir gündü seninle yeterince ilgilenemedim. Ama bugün telafi edeceğim.",
+          "nextNodeId": ["day_1_raw_3"]
+
+        },
+        {
+          "id": "day_1_raw_3",
+          "nodeType": "Raw",
+          "description": "Balık Joe'nun yemlerini veriyorsun. Zavallı balık her zamanki gibi kıtlıktan çıkmışçasına yiyor.",
+          "nextNodeId": ["day_1_nonus_2"]
+
+        },
+        {
+          "id": "day_1_nonus_2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Bu balık da eski sevgilim. Onu da doyuramazdım. Ne çok ortak yönünüz var Joe.",
+          "nextNodeId": ["day_1_raw_4"]
+
+        },
+        {
+          "id": "day_1_raw_4",
+          "nodeType": "Raw",
+          "description": "Yatağına oturup balığını izlerken bir de evin ne kadar sessiz olduğunu fark ediyorsun. Saat 9.50 annen bugün de izinli olduğunu söylemişti. Şu an çoktan uyanmış kahvaltı hazırlıyor olmalı.",
+          "nextNodeId": ["day1_cho_1"]
+
+        },
+        {
+          "id": "day1_cho_1",
+          "nodeType": "Choice",
+          "description": " Saat 9.50 annen bugün de izinli olduğunu söylemişti. Şu an çoktan uyanmış kahvaltı hazırlıyor olmalı.",
+          "choices": [
+            {
+              "text": "Acaba bir şey mi oldu?",
+              "nextNodeId": ["day1_panic_1"]
+
+            },
+            {
+              "text": "Belki iştedir, ben yanlış hatırlıyorumdur.",
+              "nextNodeId": ["day1_ahh_1"]
+
+            }
+          ]
+        },
+        {
+          "id": "day1_panic_1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Ya mutfkata yemek hazırlarken birden bayıldıysa ya da uyurken boğulduysa? Belki de merdivende ayağı takıldı ve düştü. Aldığı hasar etkisiyle felç oldu ve şu an yerde yatıyor ve benden yardım bekliyor.",
+          "nextNodeId": ["nococtail_day_1_raw_1",
+                         "coctail_day_1_raw_1"]
+        },
+        {
+          "id": "day1_ahh_1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Sanırım işte. Patronu onu çok çalıştırıyor. Kaç kere geceleri işe çağırdı zavallı annemiç Belki iznini iptal etmiştir. Ya da sadece markete gitmiş de olabilir.",
+          "nextNodeId": [
+            "coctail_day_1_nonus_1",
+            "nococtail_day_1_raw_1"
+          ]
+        },
+        {
+          "id": "coctail_day_1_nonus_1",
+          "nodeType": "Raw",
+          "description": "...",
+          "nextNodeId": ["coctail_day_1_nonus_2"],
+          "requiredFlags":["şekerlikokteyl"]
+        },
+        {
+          "id": "coctail_day_1_nonus_2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Zarfta hiçbir şey yazmıyor. Sanırım okumam lazım. Umarım kötü bir şey değildir.",
+          "nextNodeId": ["day_1_raw_5"]
+        },
+        {
+          "id": "day_1_raw_5",
+          "nodeType": "Raw",
+          "description": ".......",
+          "nextNodeId": ["day_1_nonus_3"]
+        },
+        {
+          "id": "nococtail_day_1_raw_1",
+          "nodeType": "Raw",
+          "description": "Aklından çeşitli düşünceler geçerken birden masanın üzerine iliştirilmiş bir zarfa ve yanındaki içeceğe gözün takılıyor. Bu not ne ki acaba? Önce stresimi alması için kokteyli mi içsen?",
+          "nextNodeId": ["nococtail_day_1_cho_1"]
+        },
+        {
+          "id": "nococtail_day_1_cho_1",
+          "nodeType": "Choice",
+          "description": "Önce kokteyli mi içsem yoksa notu mu açsam?",
+          "choices": [
+            {
+              "text": "Kokteyli iç",
+              "nextNodeId": ["nococtail_day_1_nonus_1"]
+            },
+            {
+              "text": "Notu Oku",
+              "nextNodeId": ["day_1_raw_5"]
+            }
+          ]
+        },
+        {
+          "id": "nococtail_day_1_nonus_1",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Mmh ah geceden hazırlayıp koymuş sanırım. Sodanın asidi kaçmış ama pamuk şekerin tadı hala tatlı tatlı geliyor. ENFESS!",
+          "nextNodeId": ["nococtail_day_1_raw_2"]
+        },
+        {
+          "id": "nococtail_day_1_raw_2",
+          "nodeType": "Raw",
+          "description": "Bu kokteyl annenle senin gizli tarifiniz. Gazoz,buz ve pamuk şekerle yaptığınız oldukça tatlı ama lezzetli bir kokteyl. Tabii düşünceli annen buzların eriyeceğini tahmin ederek buz koymamış ama tadı hala çok güzel. Sahi şu an annem nerede?",
+          "nextNodeId": ["nococtail_day_1_nonus_2"]
+        },
+        {
+          "id": "nococtail_day_1_nonus_2",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Sanırım artık notu okuma vakti geldi. Umarım iyisindir annecim.",
+          "nextNodeId": ["day_1_raw_5"]
+        },
+        {
+          "id": "day_1_nonus_3",
+          "nodeType": "Monologue",
+          "Speaker": "Nonus",
+          "description": "Bu da ne demek? Ama nasıl?",
+          "nextNodeId": [""]
+        }
+    ]
+}

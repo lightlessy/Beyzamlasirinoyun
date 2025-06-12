@@ -1,0 +1,4 @@
+repository "Beyzamla Şirin Game/Beyzamla Şirin Game@18968243661338@cloud"
+  path "/"
+    br "/main"
+    co "/main"
